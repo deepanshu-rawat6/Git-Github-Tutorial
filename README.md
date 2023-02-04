@@ -4,8 +4,6 @@ This readme aims to simplify and guide the way beginners make their first contri
  
 <img align="right" width="300" src="./assets/fork.png" alt="fork this repository" />
 
-#### If you don't have git on your machine, [install it](https://docs.github.com/en/get-started/quickstart/set-up-git).
-
 ## Fork this repository
 
 Fork this repository by clicking on the fork button on the top of this page.
@@ -127,11 +125,11 @@ replacing `your-branch-name` with the name of the branch you created earlier.
 
 If you go to your repository on GitHub, you'll see a `Compare & pull request` button. Click on that button.
 
-<img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/compare-and-pull.png" alt="create a pull request" />
+<img style="float: right;" src="./assets/compare&PR.png" alt="create a pull request" />
 
-Now submit the pull request.
+Now submit the pull request, by clicking on `Create pull request` button.
 
-<img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/submit-pull-request.png" alt="submit pull request" />
+<img style="float: right;" src="./assets/submitPR.png" alt="submit pull request" />
 
 Soon, your changes will be merged by our team. You will get a notification email once the changes have been merged.
 
