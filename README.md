@@ -89,43 +89,39 @@ touch Deepanshu.txt
 
 Now open the newly created text file in a `text editor` or `VS Code`, enter your information. After final edit save the file. 
 
-<img align="right" width="450" src="https://firstcontributions.github.io/assets/Readme/git-status.png" alt="git status" />
+<img align="right" width="450" src="./assets/git_status.png" alt="git status" />
 
 If you go to the project directory and execute the command `git status`, you'll see there are changes.
 
 Add those changes to the branch you just created using the `git add` command:
 
 ```
-git add Contributors.md
+git add .
 ```
+
+Here in the above command `.` , is used to track all changes in the current directory
+
 Now commit those changes using the `git commit` command:
 
 ```
-git commit -m "Add your-name to Contributors list"
+git commit -m "<write a message, describing what changes you've made>"
 ```
 
-replacing `your-name` with your name.
+For example:
+
+```
+git commit -m "added Deepanshu.txt"
+```
 
 ## Push changes to GitHub
 
 Push your changes using the command `git push`:
 
 ```
-git push -u origin your-branch-name
+git push -u origin <your-branch-name>
 ```
 
 replacing `your-branch-name` with the name of the branch you created earlier.
-
-<details>
-<summary> <strong>If you get any errors while pushing, click here:</strong> </summary>
-
-- ### Authentication Error
-     <pre>remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
-  remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
-  fatal: Authentication failed for 'https://github.com/<your-username>/first-contributions.git/'</pre>
-  Go to [GitHub's tutorial](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) on generating and configuring an SSH key to your account.
-
-</details>
 
 ## Submit your changes for review
 
@@ -137,7 +133,7 @@ Now submit the pull request.
 
 <img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/submit-pull-request.png" alt="submit pull request" />
 
-Soon I'll be merging all your changes into the main branch of this project. You will get a notification email once the changes have been merged.
+Soon, your changes will be merged by our team. You will get a notification email once the changes have been merged.
 
 
 
